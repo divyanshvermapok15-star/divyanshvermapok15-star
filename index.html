@@ -199,33 +199,42 @@
           <h2 id="projects-heading" class="sr-only">Projects</h2>
           <ul class="projects">
             <li class="project">
-              <a class="project__media" href="#" aria-label="Distributed checkout service">
+              <div class="project__media" aria-hidden="true">
                 <span class="project__thumb project__thumb--one" role="img" aria-hidden="true"></span>
-              </a>
+              </div>
               <div class="project__body">
-                <h3 class="project__title">
-                  <a href="#">
-                    Checkout service (no double charges)
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <path
-                        d="M7 17 17 7M17 7H8M17 7v9"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </a>
-                </h3>
+                <h3 class="project__title">Video Digest</h3>
                 <p class="project__desc">
-                  Event-driven checkout: reserve inventory, pay, commit or roll back. Idempotency keys
-                  because people will absolutely click pay twice.
+                  Email digest when channels or playlists you follow post on YouTube — instant, daily, or
+                  weekly. Polls public RSS (no API key), shares fetches across subscribers, and uses
+                  idempotent writes so re-polls stay safe. Magic-link email actions for mark-watched and
+                  unsubscribe.
                 </p>
                 <ul class="project__tags">
                   <li>Kotlin</li>
                   <li>Spring Boot</li>
-                  <li>Kafka</li>
                   <li>PostgreSQL</li>
+                  <li>Thymeleaf</li>
+                </ul>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__media" aria-hidden="true">
+                <span class="project__thumb project__thumb--two" role="img" aria-hidden="true"></span>
+              </div>
+              <div class="project__body">
+                <h3 class="project__title">Job Discovery</h3>
+                <p class="project__desc">
+                  Search open roles that match a target title and pay at or above your current or expected
+                  package — with every salary marked posted, estimated, or unknown. Ingests public ATS
+                  boards (Greenhouse, Lever, Ashby, SmartRecruiters) plus optional Adzuna; LinkedIn and
+                  Glassdoor stay outbound links only.
+                </p>
+                <ul class="project__tags">
+                  <li>Spring Boot</li>
+                  <li>Next.js</li>
+                  <li>H2 / PostgreSQL</li>
+                  <li>OpenAPI</li>
                 </ul>
               </div>
             </li>
@@ -237,7 +246,7 @@
                 rel="noopener noreferrer"
                 aria-label="flipkart-automate-purchase on GitHub"
               >
-                <span class="project__thumb project__thumb--two" role="img" aria-hidden="true"></span>
+                <span class="project__thumb project__thumb--three" role="img" aria-hidden="true"></span>
               </a>
               <div class="project__body">
                 <h3 class="project__title">
@@ -266,36 +275,6 @@
                   <li>Python</li>
                   <li>Automation</li>
                   <li>GitHub</li>
-                </ul>
-              </div>
-            </li>
-            <li class="project">
-              <a class="project__media" href="#" aria-label="Platform APIs">
-                <span class="project__thumb project__thumb--three" role="img" aria-hidden="true"></span>
-              </a>
-              <div class="project__body">
-                <h3 class="project__title">
-                  <a href="#">
-                    Internal developer platform APIs
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <path
-                        d="M7 17 17 7M17 7H8M17 7v9"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </a>
-                </h3>
-                <p class="project__desc">
-                  Self-serve envs and deploy metadata so teams stop asking ops for the same thing every
-                  sprint.
-                </p>
-                <ul class="project__tags">
-                  <li>Spring Boot</li>
-                  <li>OpenAPI</li>
-                  <li>Docker</li>
                 </ul>
               </div>
             </li>
